@@ -18,8 +18,8 @@ services:
       - "5433:5433"
     environment:
       POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: tierrita24
-      POSTGRES_DB: vamos
+      POSTGRES_PASSWORD: 123456
+      POSTGRES_DB: nutricion
     volumes:
       - dbdata:/var/lib/postgresql/data
     networks:
